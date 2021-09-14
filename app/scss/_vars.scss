@@ -1,0 +1,12 @@
+$black-900: #020305;
+$black-850: #151A21;
+$black-800: #191F27;
+$gold: #b39d6e;
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
